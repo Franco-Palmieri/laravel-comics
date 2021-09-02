@@ -1,22 +1,18 @@
 nav {
   height: 100px;
-  border: 1px solid black;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 nav .container .row .content-nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   width: 100%;
 }
 
 nav .container .row .content-nav .logo {
   width: 70px;
   height: 70px;
-  border: 1px solid black;
 }
 
 nav .container .row .content-nav .logo img {
@@ -38,13 +34,12 @@ nav .container .row .content-nav ul li a {
   text-decoration: none;
   border-bottom: 2px solid white;
   color: gray;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 nav .container .row .content-nav ul li a:hover {
-  color: yellow;
-  border-bottom: 2px solid blue;
-  color: blue;
+  border-bottom: 2px solid #3676d6;
+  color: #3676d6;
 }
 
 header {

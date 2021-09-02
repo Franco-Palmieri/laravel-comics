@@ -1,7 +1,11 @@
 <div class="container">
     <div class="row">
         <div class="content-nav">
-            <div class="logo"></div>
+            <div class="logo">
+                <a href="{{route('homepage')}}">
+                <img src="./images/dc-logo.png" alt="">
+                </a>
+            </div>
             <ul>
                 <li><a href="#">CHARACTERS</a></li>
                 <li><a href="{{route('productpage')}}">COMICS</a></li>
