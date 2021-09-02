@@ -53,35 +53,64 @@ header {
 
 footer .bg-footer {
   background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
   display: flex;
   color: white;
+  border: 1px solid white;
+}
+
+footer .bg-footer .container .row .content-list .row .col-4 {
+  padding: 10px;
+  width: calc(100% / 3);
+  list-style-type: none;
+}
+
+footer .bg-footer .container .row .content-list .row .col-4 ul {
+  list-style-type: none;
+}
+
+footer .bg-footer .container .row .content-list .row .col-4 ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+footer .bg-footer .container .row .content-list .row .col-4 ul li a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+footer .bg-footer .container .row .content-list .row .col-4 ul li a:hover {
+  color: white;
+}
+
+footer .bg-footer .container .row .content-list .row .col-4 ul li:first-child {
+  color: white;
+  margin: 15px 0;
+  font-size: 17px;
+}
+
+footer .bg-footer .container .row .content-list .row p {
+  font-size: 12px;
+  color: lightgray;
+}
+
+footer .bg-footer .container .row .content-list .row p a {
+  text-decoration: none;
+  color: #3676d6;
 }
 
 footer .bg-footer .container .row .col-6 {
   width: calc(100% / 2);
 }
 
-footer .bg-footer .container .row .col-6 .col-4 {
-  padding: 30px;
-  width: calc(100% / 3);
-  list-style-type: none;
-}
-
-footer .bg-footer .container .row .col-6 .col-4 li {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-footer .bg-footer .container .row .col-6 .col-4 li a {
-  text-decoration: none;
-  color: lightgray;
-}
-
-footer .bg-footer .container .row .col-6 .col-4 li:first-child {
-  color: white;
-  margin-bottom: 20px;
-  font-size: 17px;
+footer .bg-footer .container .row .bg-logo-footer {
+  overflow: hidden;
+  height: 400px;
+  background-image: url("/images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 footer .bottom-footer {
