@@ -56,9 +56,6 @@ footer .bg-footer {
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  display: flex;
-  color: white;
-  border: 1px solid white;
 }
 
 footer .bg-footer .container .row .content-list .row .col-4 {
