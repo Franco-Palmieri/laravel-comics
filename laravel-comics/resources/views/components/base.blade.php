@@ -11,11 +11,8 @@
     <nav>
         @include('components.nav')
     </nav>
-    <header>
-        @include('components.header')
-    </header>
 
-    <div class="container">
+    <div class="container-fluid">
         @yield('content')
     </div>
 

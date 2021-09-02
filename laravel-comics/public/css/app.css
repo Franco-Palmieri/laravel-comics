@@ -51,6 +51,44 @@ header {
   background-repeat: no-repeat;
 }
 
+footer .bg-footer {
+  background-image: url("/images/footer-bg.jpg");
+  height: 400px;
+  display: flex;
+  color: white;
+}
+
+footer .bg-footer .container .row .col-6 {
+  width: calc(100% / 2);
+}
+
+footer .bg-footer .container .row .col-6 .col-4 {
+  padding: 30px;
+  width: calc(100% / 3);
+  list-style-type: none;
+}
+
+footer .bg-footer .container .row .col-6 .col-4 li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+footer .bg-footer .container .row .col-6 .col-4 li a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+footer .bg-footer .container .row .col-6 .col-4 li:first-child {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+footer .bottom-footer {
+  height: 50px;
+  background-color: #4b4b4b;
+}
+
 * {
   margin: 0;
   padding: 0;
