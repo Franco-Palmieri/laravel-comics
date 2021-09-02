@@ -24,11 +24,11 @@ nav{
                         list-style-type: none;
                         a{
                             text-decoration: none;
-                            border-bottom: 2px solid white;
+                            border-bottom: 4px solid white;
                             color: gray;
-                            padding-bottom: 40px;
+                            padding-bottom: 35px;
                             &:hover{
-                                border-bottom: 2px solid rgb(54, 118, 214);
+                                border-bottom: 4px solid rgb(54, 118, 214);
                                 color: rgb(54, 118, 214);
                             }
                         }
