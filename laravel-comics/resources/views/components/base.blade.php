@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="{{mix('/css/app.css')}}">
 </head>
 <body>
+    <nav>
+        @include('components.nav')
+    </nav>
     <header>
         @include('components.header')
     </header>

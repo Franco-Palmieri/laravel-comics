@@ -1,2 +1,17 @@
 //
-@import "header"
+@import "nav";
+@import "header";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 1200px; 
+   margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
