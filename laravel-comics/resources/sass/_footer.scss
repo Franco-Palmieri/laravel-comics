@@ -58,5 +58,40 @@ footer{
     .bottom-footer{
         height: 50px;
         background-color: rgb(75, 75, 75);
+        .container{
+            .container-bot-foot{
+                align-items: center;
+                height: 50px;
+                justify-content: space-between;
+                .button-footer{
+                    border: 2px solid rgb(54, 118, 214);
+                    padding: 5px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                .social-container{
+                    display: flex;
+                    align-items: center;
+                    span{
+                        color: rgb(54, 118, 214);
+                        font-weight: bold;
+                        margin: 0 5px;
+                    }
+                    .icon-foot{
+                        width: 30px;
+                        height: 30px;
+                        margin: 0 5px;
+                        a{
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

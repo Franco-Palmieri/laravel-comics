@@ -56,5 +56,41 @@
         </div>
     </div>
 </div>
-<div class="bottom-footer"></div>
+<div class="bottom-footer">
+    <div class="container">
+        <div class="row container-bot-foot">
+            <div class="button-footer">
+                <a href="#">SIGN-UP NOW</a>
+            </div>
+            <div class="social-container">
+                <span>FOLLOW US!</span>
+                <div class="icon-foot">
+                    <a href="#">
+                        <img src="/images/footer-facebook.png" alt="">
+                    </a>
+                </div>
+                <div class="icon-foot">
+                    <a href="#">
+                        <img src="/images/footer-twitter.png" alt="">
+                    </a>
+                </div>
+                <div class="icon-foot">
+                    <a href="#">
+                        <img src="/images/footer-youtube.png" alt="">
+                    </a>
+                </div>
+                <div class="icon-foot">
+                    <a href="#">
+                        <img src="/images/footer-pinterest.png" alt="">
+                    </a>
+                </div>
+                <div class="icon-foot">
+                    <a href="#">
+                        <img src="/images/footer-periscope.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
                 
