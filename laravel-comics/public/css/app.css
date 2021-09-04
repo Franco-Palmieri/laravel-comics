@@ -173,6 +173,7 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
   height: 100px;
   align-items: center;
   color: white;
+  padding: 20px;
 }
 .main-home-page .main-bar .container .content-main-bar .icon-main-box {
   width: calc(100% / 5);
