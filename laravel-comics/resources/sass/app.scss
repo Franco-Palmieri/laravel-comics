@@ -2,13 +2,13 @@
 @import "nav";
 @import "header";
 @import "footer";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import 'homepage';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
    width: 1200px; 

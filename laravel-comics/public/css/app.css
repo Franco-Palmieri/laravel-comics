@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);nav {
+nav {
   height: 100px;
   display: flex;
   align-items: center;
@@ -137,14 +137,10 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
 }
 .main-home-page .container .comics-content .box-comics {
   width: calc(100% / 6);
-  padding: 5px;
-}
-.main-home-page .container .comics-content .box-comics .content-box {
-  min-height: 300px;
-  padding: 0;
+  padding: 10px;
 }
 .main-home-page .container .comics-content .box-comics .content-box .image-box {
-  height: 250px;
+  height: 180px;
 }
 .main-home-page .container .comics-content .box-comics .content-box .image-box img {
   width: 100%;
@@ -197,6 +193,7 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
