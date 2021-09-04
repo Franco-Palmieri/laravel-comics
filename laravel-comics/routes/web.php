@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $details = config('details'); //associo ad una variabile l'array che si trova nel file details nella cartella config
     return view('home', ['details' => $details]);
-
 })->name('homepage');
 
 Route::get('/product', function () {
-    return view('product');
+    $details = config('details');
+    return view('product', ['details' => $details]);
 })->name('productpage');
