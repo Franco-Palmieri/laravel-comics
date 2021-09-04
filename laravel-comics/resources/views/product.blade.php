@@ -41,7 +41,26 @@
                         stories Action Comics #1 and 2 from 1938!
                     </p>
                 </div>
-                <div class="pubblicita">ciao</div>
+                <div class="pubblicita">
+                    <span>ADVERTISEMENT</span>
+                    <img src="/images/adv.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box-info-container">
+            <div class="container">
+                <div class="row box-info-content">
+                    <div class="info-box-left col-6">
+                        <h1 class="title-info">Talent</h1>
+                        <div class="info">
+                            <div class="top-info"></div>
+                            <div class="bottom-info"></div>
+                        </div>
+                    </div>
+                    <div class="info-box-right col-6">
+                        <h1 class="title-info">Specs</h1>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
