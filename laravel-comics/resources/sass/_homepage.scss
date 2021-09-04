@@ -37,6 +37,31 @@
         }
     }
     .main-bar{
-
+        background-color: rgb(54, 118, 214);
+        height: 100px;
+        .container{
+            .content-main-bar{
+                height: 100px;
+                align-items: center;
+                color: white;
+                .icon-main-box{
+                    width: calc(100% / 5);
+                    display: flex;
+                    align-items: center;
+                    .icon-main{
+                        width: 50px;
+                        height: 50px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    span{
+                        vertical-align: middle;
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
     }
 } 
