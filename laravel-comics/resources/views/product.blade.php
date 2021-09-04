@@ -53,7 +53,9 @@
                     <div class="info-box-left col-6">
                         <h1 class="title-info">Talent</h1>
                         <div class="info">
-                            <div class="top-info"></div>
+                            <div class="top-info">
+                                
+                            </div>
                             <div class="bottom-info"></div>
                         </div>
                     </div>
