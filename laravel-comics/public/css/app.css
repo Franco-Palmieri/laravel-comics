@@ -196,7 +196,6 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
 
 .container .content-product {
   padding: 50px;
-  border: 1px solid black;
 }
 .container .content-product .section-product {
   width: calc(100% / 2);
@@ -259,6 +258,11 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
 .box-info-container .container .box-info-content .info-box-left .info {
   width: 100%;
   border: 1px solid lightgrey;
+}
+.box-info-container .container .box-info-content .info-box-left .info .top-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .box-info-container .container .box-info-content .info-box-right .title-info {
   color: #103874;

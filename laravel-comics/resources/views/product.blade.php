@@ -54,7 +54,12 @@
                         <h1 class="title-info">Talent</h1>
                         <div class="info">
                             <div class="top-info">
-                                
+                                <span>Art by</span>
+                                <div class="artists">
+                                    @foreach($details as $key => $detail)
+                                       
+                                    @endforeach
+                                </div>
                             </div>
                             <div class="bottom-info"></div>
                         </div>
