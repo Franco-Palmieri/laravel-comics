@@ -3,7 +3,14 @@
 @section('content')
     <div class="header-bar">
         <div class="container">
-            <div class="row"></div>
+            <div class="row">
+                <div class="box-image">
+                    @php 
+                        $detail = $details[0];
+                        echo "<img src=\"{$detail['thumb']}\">"
+                    @endphp
+                </div>
+            </div>
         </div>
     </div>
     <main>
