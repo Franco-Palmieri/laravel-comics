@@ -10,18 +10,18 @@
         <div class="container">
             <div class="row content-product">
                 <div class="section-product">
-                    <?php
+                    @php
                         $detail = $details[0];
                         echo "<h1 class='title-product-section'> {$detail['title']} </h1>"
-                    ?>
+                    @endphp
                     <div class="check-bar">
                         <div class="price-check">
                             <div class="content-check">
                                 <span>U.S Price:</span>
-                                <?php
+                                @php
                                     $detail = $details[0];
                                     echo "<span>{$detail['price']}</span>"
-                                ?>
+                                @endphp
                             </div>
                             <div class="content-check">
                                 <span>AVAILABLE</span>
@@ -54,18 +54,48 @@
                         <h1 class="title-info">Talent</h1>
                         <div class="info">
                             <div class="top-info">
-                                <span>Art by</span>
+                                <div class="">Art by</div>
                                 <div class="artists">
-                                    @foreach($details as $key => $detail)
-                                       
+                                    @foreach($detail['artists'] as $artist)
+                                       {{$artist}},
                                     @endforeach
                                 </div>
                             </div>
-                            <div class="bottom-info"></div>
+                            <div class="bottom-info">
+                                <div>Written by</div>
+                                <div class="writers">
+                                    @foreach($detail['writers'] as $writer)
+                                    {{$writer}},
+                                    @endforeach
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="info-box-right col-6">
                         <h1 class="title-info">Specs</h1>
+                        <div class="info">
+                            <div class="top-info">
+                                <div>Series</div>
+                                @php
+                                    $detail = $details[0];
+                                    echo "<div class='series'> {$detail['series']} </div>" 
+                                @endphp
+                            </div>
+                            <div class="middle-info">
+                                <div>U.S. Price:</div>
+                                @php 
+                                    $detail = $details[0];
+                                    echo "<div> {$detail['price']} </div>"
+                                @endphp
+                            </div>
+                            <div class="bottom-info">
+                                <div>On Sale Date:</div>
+                                @php 
+                                    $detail = $details[0];
+                                    echo "<div> {$detail['sale_date']}</div>"
+                                @endphp
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

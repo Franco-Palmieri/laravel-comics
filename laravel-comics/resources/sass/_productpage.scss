@@ -61,6 +61,7 @@
 }
 .box-info-container{
     background-color: rgb(233, 233, 233);
+    border-top: 1px solid lightgrey;
     .container{
         .box-info-content{
             padding: 35px;
@@ -71,21 +72,90 @@
                 }
                 .info{
                     width: 100%;
-                    border: 1px solid lightgrey;
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                    display: flex;
+                    flex-direction: column;
                     .top-info{
-                        width: 100%;
                         display: flex;
                         justify-content: space-between;
+                        width: 100%;
+                        padding: 10px 0;
+                        border-bottom: 1px solid lightgrey;
+                        div{
+                            width: calc(100% / 2);
+                        }
+                        .artists{
+                            color: rgb(105, 162, 247);
+                            font-weight: bold;
+                            font-size: 11px;
+                        }
                     }
                     .bottom-info{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        padding: 10px 0;
 
+                        div{
+                            width: calc(100% / 2);
+                        }
+                        .writers{
+                            color: rgb(105, 162, 247);
+                            font-weight: bold;
+                            font-size: 11px;
+                        }
                     }
                 }
             }
             .info-box-right{
+                padding: 0 20px;
                 .title-info{
                     color: rgb(16, 56, 116);
                     font-size: 25px;
+                }
+                
+                .info{
+                    width: 100%;
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                    display: flex;
+                    flex-direction: column;
+                    .top-info{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        padding: 10px 0;
+                        border-bottom: 1px solid lightgrey;
+                        div{
+                            width: calc(100% / 2);
+                        }
+                        .series{
+                            color: rgb(105, 162, 247);
+                            font-weight: bold;
+                            font-size: 15px;
+                        }
+                    }
+                    .middle-info{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        padding: 10px 0;
+                        border-bottom: 1px solid lightgrey;
+                        div{
+                            width: calc(100% / 2);
+                        }
+                    }
+                    .bottom-info{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        padding: 10px 0;
+
+                        div{
+                            width: calc(100% / 2);
+                        }
+                    }
                 }
             }
         }
