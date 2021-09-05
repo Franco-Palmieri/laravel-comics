@@ -54,7 +54,7 @@
                         <h1 class="title-info">Talent</h1>
                         <div class="info">
                             <div class="top-info">
-                                <div class="">Art by</div>
+                                <div class="info-color">Art by</div>
                                 <div class="artists">
                                     @foreach($detail['artists'] as $artist)
                                        {{$artist}},
@@ -62,7 +62,7 @@
                                 </div>
                             </div>
                             <div class="bottom-info">
-                                <div>Written by</div>
+                                <div class="info-color">Written by</div>
                                 <div class="writers">
                                     @foreach($detail['writers'] as $writer)
                                     {{$writer}},
@@ -75,21 +75,21 @@
                         <h1 class="title-info">Specs</h1>
                         <div class="info">
                             <div class="top-info">
-                                <div>Series</div>
+                                <div class="info-color">Series</div>
                                 @php
                                     $detail = $details[0];
                                     echo "<div class='series'> {$detail['series']} </div>" 
                                 @endphp
                             </div>
                             <div class="middle-info">
-                                <div>U.S. Price:</div>
+                                <div class="info-color">U.S. Price:</div>
                                 @php 
                                     $detail = $details[0];
                                     echo "<div> {$detail['price']} </div>"
                                 @endphp
                             </div>
                             <div class="bottom-info">
-                                <div>On Sale Date:</div>
+                                <div class="info-color">On Sale Date:</div>
                                 @php 
                                     $detail = $details[0];
                                     echo "<div> {$detail['sale_date']}</div>"

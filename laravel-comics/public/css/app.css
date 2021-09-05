@@ -273,6 +273,10 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
 .box-info-container .container .box-info-content .info-box-left .info .top-info div {
   width: calc(100% / 2);
 }
+.box-info-container .container .box-info-content .info-box-left .info .top-info .info-color {
+  color: #103874;
+  font-weight: bold;
+}
 .box-info-container .container .box-info-content .info-box-left .info .top-info .artists {
   color: #69a2f7;
   font-weight: bold;
@@ -283,6 +287,10 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
   justify-content: space-between;
   width: 100%;
   padding: 10px 0;
+}
+.box-info-container .container .box-info-content .info-box-left .info .bottom-info .info-color {
+  color: #103874;
+  font-weight: bold;
 }
 .box-info-container .container .box-info-content .info-box-left .info .bottom-info div {
   width: calc(100% / 2);
@@ -316,6 +324,10 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
 .box-info-container .container .box-info-content .info-box-right .info .top-info div {
   width: calc(100% / 2);
 }
+.box-info-container .container .box-info-content .info-box-right .info .top-info .info-color {
+  color: #103874;
+  font-weight: bold;
+}
 .box-info-container .container .box-info-content .info-box-right .info .top-info .series {
   color: #69a2f7;
   font-weight: bold;
@@ -331,6 +343,10 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
 .box-info-container .container .box-info-content .info-box-right .info .middle-info div {
   width: calc(100% / 2);
 }
+.box-info-container .container .box-info-content .info-box-right .info .middle-info .info-color {
+  color: #103874;
+  font-weight: bold;
+}
 .box-info-container .container .box-info-content .info-box-right .info .bottom-info {
   display: flex;
   justify-content: space-between;
@@ -339,6 +355,10 @@ footer .bottom-footer .container .container-bot-foot .social-container .icon-foo
 }
 .box-info-container .container .box-info-content .info-box-right .info .bottom-info div {
   width: calc(100% / 2);
+}
+.box-info-container .container .box-info-content .info-box-right .info .bottom-info .info-color {
+  color: #103874;
+  font-weight: bold;
 }
 
 * {
